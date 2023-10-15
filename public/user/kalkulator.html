@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kalkulator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="absolute inset-x-0 top-0 z-50">
+        <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+          <div class="flex lg:flex-1">
+            <a href="#" class="-m-1.5 p-1.5">
+              <span class="sr-only">Your Company</span>
+            </a>
+          </div>
+          <div class="flex lg:hidden">
+            <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+              <span class="sr-only">Open main menu</span>
+              <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+            </button>
+          </div>
+          <div class="hidden lg:flex lg:gap-x-12">
+            <a href="index.html" class="text-sm font-semibold leading-6 text-gray-900">Home</a>
+            <a href="blog.html" class="text-sm font-semibold leading-6 text-gray-900">Blog</a>
+            <a href="shop.html" class="text-sm font-semibold leading-6 text-gray-900">Shop</a>
+            <a href="kalkulator.html" class="text-sm font-semibold leading-6 text-gray-900">Calculator</a>
+          </div>
+          <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+            <a href="login.html" class="text-sm font-semibold leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
+          </div>
+        </nav>
+      </header>
+    <!-- component -->
+<div class="min-h-screen p-6 bg-gray-100 flex items-center justify-center">
+    <div class="container max-w-screen-lg mx-auto">
+      <div>
+        <h2 class="font-semibold text-xl text-gray-600">CalCulating Your Nutrition</h2>
+        <p class="text-gray-500 mb-6">Solusi Menghitung Nutrisi dan Jumlah Air untuk Pertumbuhan Tanaman </p>
+  
+        <div class="bg-white rounded shadow-lg p-4 px-4 md:p-8 mb-6">
+          <div class="grid gap-4 gap-y-2 text-sm grid-cols-1 lg:grid-cols-3">
+            <div class="text-gray-600">
+              <p class="font-medium text-lg">masukkan nilai sesuai keterangan.</p>
+              <p>hitung nutrisi pupuk.</p>
+            </div>
+  
+            <div class="lg:col-span-2">
+              <div class="grid gap-4 gap-y-2 text-sm grid-cols-1 md:grid-cols-5">
+                <div class="md:col-span-5">
+                  <label for="full_name">system folume liters</label>
+                  <input type="text" name="full_name" id="full_name" class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" />
+                </div>
+                <div class="md:col-span-5">
+                  <label for="full_name">Desired Nutrient Concentration (ppm)</label>
+                  <input type="text" name="full_name" id="full_name" class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" />
+                </div>
+                <div class="md:col-span-5">
+                  <label for="full_name">Desired pH</label>
+                  <input type="text" name="full_name" id="full_name" class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" />
+                </div>
+                
+  
+                
+  
+                
+        
+                <div class="md:col-span-5 text-right">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Calculate</button>
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      
+    </div>
+  </div>
+</body>
+</html>

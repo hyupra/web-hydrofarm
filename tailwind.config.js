@@ -1,9 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./public/**/*.{html,js}'],
+  content: ['./public/**/*.html',] ,
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-plugin-icons'),
+  ],
 }
 
